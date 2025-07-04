@@ -1,0 +1,29 @@
+{
+  "name": "string-converter-fs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "string",
+    "converter",
+    "kebab-case",
+    "capitalize",
+    "snake-case"
+  ],
+  "author": "Falgun Shah <falgunshah7@gmail.com>",
+  "license": "MIT",
+  "description": "A simple utility package for formatting strings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falgunshah7/string-converter-fs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/falgunshah7/string-converter-fs/issues"
+  },
+  "homepage": "https://github.com/falgunshah7/string-converter-fs#readme",
+  "dependencies": {
+    "jest": "^30.0.4"
+  }
+}
