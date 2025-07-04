@@ -10,7 +10,7 @@ npm install string-converter-fs
 
 ## Usage
 
-const { capitalize, kebabCase, snakeCase } = require("string-helper-fs");
+const { capitalize, kebabCase, snakeCase } = require("string-converter-fs");
 
 console.log(capitalize("hello")); // Hello
 console.log(kebabCase("Hello World")); // hello-world
