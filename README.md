@@ -18,7 +18,7 @@ A simple and lightweight JavaScript utility library for converting strings into 
 npm install string-converter-fs
 ```
 
-🚀 Usage
+## 🚀 Usage
 
 ```js
 const { capitalize, kebabCase, snakeCase } = require("string-converter-fs");
@@ -28,31 +28,34 @@ console.log(kebabCase("Hello World")); // hello-world
 console.log(snakeCase("Hello World")); // hello_world
 ```
 
-✨ API Methods
+## ✨ API Methods
+
 🔹 capitalize(string)
 Capitalizes the first letter of the string.
 
 ```js
-capitalize("falgun"); // "Falgun"
+capitalize("hello"); // "Hello"
 ```
 
 🔹 kebabCase(string)
 Converts the string to kebab-case.
 
 ```js
-kebabCase("Falgun Shah"); // "falgun-shah"
+kebabCase("Hello World"); // "hello-world"
 ```
 
 🔹 snakeCase(string)
 Converts the string to snake_case.
 
 ```js
-snakeCase("Falgun Shah"); // "falgun_shah"
+snakeCase("Hello World"); // "hello_world"
 ```
 
-📄 License
-MIT © falgunshah7
+## 🙌 Contributing
 
-🙌 Contributing
 Pull requests and feature suggestions are welcome!
 Feel free to open an issue or submit a PR.
+
+## 📄 License
+
+MIT © 2025 falgunshah7
